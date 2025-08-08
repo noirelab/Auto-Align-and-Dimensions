@@ -1,13 +1,3 @@
-bl_info = {
-    "name": "Mesh Dimension Presets XYZ",
-    "author": "ChatGPT",
-    "version": (1, 3),
-    "blender": (4, 0, 0),
-    "location": "3D View > Sidebar > Item",
-    "description": "Scale mesh vertices to match predefined dimensions without altering object scale",
-    "category": "Object",
-}
-
 import bpy
 from mathutils import Vector
 import time
