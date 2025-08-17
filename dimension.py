@@ -4,15 +4,16 @@ import time
 
 # define nove presets de dimensão: (id, label, descrição)
 PRESETS = [
-    ("D1", "0.080, 0.074, 0.096", "Dimensions X=0.080, Y=0.074, Z=0.096"),
-    ("D2", "0.080, 0.073, 0.081", "Dimensions X=0.080, Y=0.073, Z=0.081"),
-    ("D3", "0.133, 0.053, 0.060", "Dimensions X=0.133, Y=0.053, Z=0.060"),
-    ("D4", "0.077, 0.057, 0.062", "Dimensions X=0.077, Y=0.057, Z=0.062"),
-    ("D5", "0.067, 0.052, 0.064", "Dimensions X=0.067, Y=0.052, Z=0.064"),
-    ("D6", "0.081, 0.069, 0.096", "Dimensions X=0.081, Y=0.069, Z=0.096"),
-    ("D7", "0.102, 0.066, 0.077", "Dimensions X=0.102, Y=0.066, Z=0.077"),
-    ("D8", "0.120, 0.070, 0.190", "Dimensions X=0.120, Y=0.070, Z=0.190"),
-    ("D9", "0.096, 0.076, 0.163", "Dimensions X=0.096, Y=0.076, Z=0.163"),
+    ("D1", "0.080, 0.074, 0.096", "Agua-Gelada - 10sac 16-20g "),
+    ("D2", "0.080, 0.073, 0.081", "Cha-Misto-Quad - 10sac 15-16g"),
+    ("D3", "0.133, 0.053, 0.060", "Matte - 25sac 30-40g"),
+    ("D4", "0.077, 0.057, 0.062", "Cha - 10sac 10g"),
+    ("D5", "0.067, 0.052, 0.064", "Boldo - 10sac 10g"),
+    ("D6", "0.081, 0.069, 0.096", "Agua-Gelada - 10sac 23-25g"),
+    ("D7", "0.102, 0.066, 0.077", "Matte-Natural - 15sac 24g"),
+    ("D8", "0.120, 0.070, 0.190", "Terere"),
+    ("D9", "0.096, 0.076, 0.163", "Granel"),
+    ("D10", "0.096, 0.076, 0.163", "Chimarrao"),
 ]
 
 # mapeia as chaves para vetores de dimensão alvo
@@ -26,6 +27,7 @@ DIM_VALUES = {
     "D7": Vector((0.102, 0.066, 0.077)),
     "D8": Vector((0.120, 0.070, 0.190)),
     "D9": Vector((0.096, 0.076, 0.163)),
+    "D10": Vector((0.122, 0.063, 0.210)),
 }
 
 # operador para ajustar a malha às dimensões selecionadas
